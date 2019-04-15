@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+display: flex;
+justify-content: center;
+}
+
+.informacoes {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    background:white;
+}
+
+.informacoes img{ 
+    width: 220px;
+    height: 220px;
+}
+
+.infos-contatos {
+    display: flex;
+    align-items: center;
+}
+
+.redes-socias {
+display: flex;
+justify-content: space-between;
+}
+.redes-socias a:hover {
+color: brown;
+}
+
+
